@@ -4,8 +4,12 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.stereotype.Component;
 
+/**
+ * JSON Render
+ * @author WANGHAO 2019-07-16
+ */
 @Component
-public class Render {
+public class RenderUtil {
 
     public String successMsg(){
         return successMsg(null);
