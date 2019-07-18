@@ -14,6 +14,6 @@ public class FileConstant {
     MineTypeConstant mineType;
 
     public enum FileMeta {
-        ID,NAME,SIZE,OWNER,SUFFIX,TIMESTAMP
+        NAME,SIZE,OWNER,SUFFIX,TIMESTAMP
     }
 }
