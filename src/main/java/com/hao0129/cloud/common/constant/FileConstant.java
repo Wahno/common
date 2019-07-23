@@ -12,8 +12,4 @@ public class FileConstant {
 
     @Autowired
     MineTypeConstant mineType;
-
-    public enum FileMeta {
-        NAME,SIZE,OWNER,SUFFIX,TIMESTAMP
-    }
 }
